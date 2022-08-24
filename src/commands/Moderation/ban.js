@@ -1,6 +1,5 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed, Message } = require('discord.js');
-const { execute } = require('../Community/test');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -54,5 +53,3 @@ module.exports = {
         await interaction.reply({ embeds: [embed] }).catch(err => {console.log('Error')})
     },
 }
-
-// blakes fat + unloved
