@@ -1,6 +1,5 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed, Message, Permissions } = require('discord.js');
-const { execute } = require('./kick');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -55,5 +54,3 @@ module.exports = {
 }}
             }
         }
-
-        // blakes fat + unloved
