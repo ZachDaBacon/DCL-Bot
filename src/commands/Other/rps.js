@@ -10,7 +10,7 @@ const game = new rps({
 
 module.exports = {
     data: new SlashCommandBuilder()
-    .setName('rpc')
+    .setName('rps')
     .setDescription('Discord Coding Lounge | Rock Paper Scissors')
     .addUserOption(option => option.setName('user').setDescription('Who to play with?').setRequired(true)),
     async execute(interaction, client, args) {
