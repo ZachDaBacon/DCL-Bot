@@ -23,5 +23,3 @@ module.exports = {
     await interaction.reply({ embeds: [embed] }).catch(err => {console.log('Error')});
     },
 }
-
-// blakes fat + unloved
