@@ -12,7 +12,7 @@ module.exports = {
               let question = interaction.options.getString('question');
         if (!question) reason = "No question was provided."
 
-        const choice = ["It is certian.", "Whithout a doubt.", "Yes definitely", "Err, i can not decide", "As i see it, i decide yes.", "Most Likley.", "I do Not belive so.", "Just get out 🤦‍♂️"];
+        const choice = ["It is certian.", "Whithout a doubt.", "Yes definitely", "Err, i can not decide", "As i see it, i decide yes.", "I do Not belive so.", "Just get out 🤦‍♂️"];
         const ball = Math.round(Math.random() * choice.length);
 
          const killEmbed = new MessageEmbed()
